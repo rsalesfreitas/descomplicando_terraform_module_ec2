@@ -5,5 +5,6 @@ variable "instance_type" {
 
 variable "app_name" {
   type = string
+  default = "t3.micro"
   description = "Nome da App"
 }
